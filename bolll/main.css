@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+
+.list{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px; 
+    gap: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    justify-content: center ;
+    margin: auto;
+    
+}
+
+.card{
+    background-color: rgb(255, 255, 255);
+    font-size: 14px;
+    width: 240px;
+    height: 350px;
+    flex-wrap: nowrap;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 30px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 1rem;
+    /* display: flex; */
+    
+}
+.card img{
+    width: 100%;
+    height: 250px;
+}
